@@ -1,9 +1,22 @@
+
 *{
     padding: 0;
-    margin: 0;
+   
     box-sizing: border-box;
     list-style: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media screen and(max-width:630px){
+    .main-content{
+grid-template-columns: repeat(1,fr);
+    }
+    
+}
+@media  screen and(max-width:673px) {
+    .main-content{
+        grid-template-columns: repeat(1,fr);
+            }
+            
 }
 
 .main-content{
@@ -11,7 +24,7 @@
     width: 90%;
     margin: 20px auto;
     display: grid;
-    grid-template-columns: 300px 700px;
+    
 }
 .left-section
 {
