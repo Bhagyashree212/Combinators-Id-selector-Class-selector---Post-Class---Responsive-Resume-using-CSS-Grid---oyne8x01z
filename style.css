@@ -25,7 +25,7 @@ grid-template-columns: repeat(1,fr);
     width: 90%;
     margin: 20px auto;
     display: grid;
-   grid-column: 300px and 700px;
+   grid-template-columns:300px 700px
     
 }
 .left-section
