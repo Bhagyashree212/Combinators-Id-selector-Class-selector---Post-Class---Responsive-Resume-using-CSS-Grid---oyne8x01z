@@ -9,6 +9,7 @@
 @media screen and(max-width:630px){
     .main-content{
 grid-template-columns: repeat(1,fr);
+     
     }
     
 }
@@ -24,7 +25,8 @@ grid-template-columns: repeat(1,fr);
     width: 90%;
     margin: 20px auto;
     display: grid;
-    
+   grid-column: 300px;
+   grid-column: 700px; 
 }
 .left-section
 {
