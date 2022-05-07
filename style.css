@@ -6,19 +6,7 @@
     list-style: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-@media screen and(max-width:630px){
-    .main-content{
-grid-template-columns: repeat(1,fr);
-     
-    }
-    
-}
-@media  screen and(max-width:673px) {
-    .main-content{
-        grid-template-columns: repeat(1,fr);
-            }
-            
-}
+
 
 .main-content{
     min-height: 1000px;
@@ -28,6 +16,14 @@ grid-template-columns: repeat(1,fr);
    grid-template-columns:300px 700px
     
 }
+@media screen and (min-width:0px ) and max-width:673px
+{
+    .main-content  {
+grid-template-columns: repeat(1,fr);
+        
+     
+    }
+   }
 .left-section
 {
     grid-column: span 1;
